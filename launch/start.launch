@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="xiaozhi_comm" type="talker.py" name="talker_node" output="screen" />
+	<node pkg="xiaozhi_comm" type="listener.py" name="listener_node" output="screen" />
+</launch>
